@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(17, 15, 15);
+  font-family: cursive;
+  margin: 20px;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 250px;
+  justify-content: space-evenly;
+}
+#atualizar-saldo,
+#limpar-saldo {
+  color: rgb(5, 15, 32);
+  font-family: cursive;
+  background-color: rgb(11, 118, 185);
+  border-radius: 20px;
+  margin: 10px;
+}
+#soma {
+  display: flex;
+  justify-content: center;
+  color: rgb(5, 15, 32);
+  font-family: cursive;
+  background-color: rgb(11, 118, 185);
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+  margin-left: 50px;
+}
+#campo-saldo {
+  display: flex;
+  border: 1px solid whitesmoke;
+  justify-content: center;
+  align-items: center;
+  color: rgb(7, 7, 7);
+  background-color: rgb(240, 216, 4);
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+h1 {
+  color: aliceblue;
+}
+h4 {
+  color: aliceblue;
+}
